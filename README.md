@@ -6,6 +6,18 @@ Starter project for create restAPI with firebase cloud function and firebase Rea
 node -v
 v10.9.0
 ```
+## Dependencies
+* [**body-parser**](https://github.com/expressjs/body-parser)  parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+* [**cors**](https://github.com/expressjs/cors) is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+* [**express**](https://github.com/expressjs/express) create restAPI. 
+* [**firebase-admin**](https://github.com/firebase/firebase-admin-node) provides the tools and infrastructure you need to develop your app with admin.
+* [**firebase-functions**](https://github.com/firebase/firebase-functions) package provides an SDK for defining Cloud Functions for Firebase.
+
+## Structure
+* **config** configulation file, example express firebase cors etc.
+* **core** business logic fuction for api.
+* **utils** utility functtion.
+* **index.js** exporting and route for function.
 
 ## Installation
 **1. Set up Node.js and the Firebase CLI** 
